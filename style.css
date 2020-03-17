@@ -1,0 +1,92 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+  background: black;
+
+
+  background-image: url("2.png");
+
+
+  height: 100vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+#uno {
+	padding: 2rem;
+margin-top: 15%;
+border-radius: 0.25rem;
+-webkit-box-shadow: 0.5rem 0.5rem 1rem 0.5rem #111; 
+box-shadow: 0.5rem 0.5rem 1rem 0.5rem #111;
+background-color: #000;
+opacity: 0.75;
+color: #0aaa0a;
+}
+
+p {
+	line-height: 1.25rem;
+}
+
+
+
+.blinking-cursor {
+  font-weight: 100;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color:  #0aaa0a;;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color:  #0aaa0a;;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color:  #0aaa0a;;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color:  #0aaa0a;;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color:  #0aaa0a;;
+  }
+}
